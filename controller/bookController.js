@@ -253,9 +253,9 @@ exports.makePaymentController= async (req,res)=>{
             // make payment
             mode: "payment",
             // if payment success -url to be shown
-            success_url:"http://localhost:5173/payment-success",
+            success_url:"https://bookstore-frontend-ten-umber.vercel.app/payment-success",
              // if payment error -url to be shown
-             cancel_url:"http://localhost:5173/payment-error"
+             cancel_url:"https://bookstore-frontend-ten-umber.vercel.app/payment-error"
         });
         console.log(session);
          
